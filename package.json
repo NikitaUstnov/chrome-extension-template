@@ -1,0 +1,43 @@
+{
+  "name": "vue3-ts-vite-chrome-extension-template",
+  "version": "0.0.1",
+  "description": "vue3-ts-vite-chrome-extension-template",
+  "type": "module",
+  "scripts": {
+    "dev": "cross-env VITE_MODE=development vite build --watch --mode development",
+    "build": "cross-env VITE_MODE=production vite build --mode production",
+    "preview": "vite preview --port 5050"
+  },
+  "author": "NikitaUstinov <>",
+  "keywords": [
+    "vue",
+    "vue3",
+    "vite",
+    "chrome-extension",
+    "typescript",
+    "scss"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/{author}/{rep_name}.git"
+  },
+  "bugs": {
+    "url": "https://github.com/{author}/{rep_name}/issues"
+  },
+  "homepage": "https://github.com/{author}/{rep_name}2#readme",
+  "browserList": "> 0.25%, not dead",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chrome": "^0.0.297",
+    "@types/node": "^20.8.10",
+    "sass-embedded": "^1.83.4",
+    "typescript": "^5.2.2",
+    "vite": "^6.0.9"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "cross-env": "^7.0.3",
+    "vite-plugin-web-extension": "^4.4.3",
+    "vue": "^3.5.13"
+  }
+}

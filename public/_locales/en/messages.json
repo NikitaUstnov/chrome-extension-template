@@ -1,0 +1,9 @@
+{
+  "extName": {
+    "message": "Vite + Vue 3 + TypeScript + SCSS + Chrome Extension",
+    "description": "Vite + Vue 3 + TypeScript + SCSS + Chrome Extension"
+  },
+  "extDescription": {
+    "message": "Vite + Vue 3 + TypeScript + SCSS + Chrome Extension"
+  }
+}
