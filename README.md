@@ -49,7 +49,6 @@ src/
   |_ content-script/  # Content scripts for the extension
   |_ inject-scripts/  # Injected scripts running in the webpage context
   |_ service-worker/  # Background scripts and service workers
-  |_ router/          # Vue Router configuration
   |_ utils/           # Utility functions (logger, storage)
   |_ views/
       |_ options-page/ # Settings page (Vue + HTML)
